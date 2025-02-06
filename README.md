@@ -47,6 +47,12 @@ use:qm list
 - Click on a machine to shut it down or force stop it if needed.
 - Future updates will include snapshot resets and IP display.
 
+
+## Performance Improvements
+   - Now using ThreadPoolExecutor to process each server in parallel (max. 4) and, within each server, to process the machines (max. 5).
+   - This should improve response times by handling SSH calls and pings concurrently.
+   - You can adjust the max_workers values based on your needs and system performance.
+
 ## Contributions
 Feel free to open an issue or submit a pull request for improvements.
 
