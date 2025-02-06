@@ -7,6 +7,13 @@ Last week, I was learning how to build apps, and my first idea was to solve this
 
 It’s great because I can quickly identify active machines without straining my eyes to spot tiny icons—green highlights make them stand out.
 
+After the step 4 :   python3 servidores
+Just open the app.
+dont forget to config your servers and ssh-keys
+
+use:qm list
+
+![Image](https://github.com/user-attachments/assets/edc3ed8f-ac25-4d59-ab27-7ca179997cdc)
 ## Features
 - Display running virtual machines
 - Shutdown or force stop machines
